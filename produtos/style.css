@@ -1,0 +1,34 @@
+
+
+.bg-azulbb{
+    background: #EAF2FD;
+}
+.bg-cinzalight{
+   background-color:#F5F5F5;
+}
+.inp-head{
+    height: 3rem;
+}
+.inp-head::placeholder{
+    
+    padding-left: 1rem;
+    background-image: url(img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 98%;
+    
+}
+.alura-cabecalho{
+    color: #2A7AE4;
+}
+.alr-color{
+    color: black;
+}
+.alura-cabecalho::before{
+   content: url(img/logo.svg);
+   vertical-align: text-top;
+}
+.alura-link{
+    text-decoration: none;
+    list-style: none;
+}
+
