@@ -1,0 +1,244 @@
+@media screen and (min-width:378px) {
+  .cabecalho__logo{
+    grid-column: 1/3;
+  }
+  .principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .grid__titulo{
+    padding: 0;
+  }
+  .grid__console{
+    display: none;
+  }
+  .grid__titulo-nav{
+    display: flex;
+      flex-direction: row;
+      font-size: 22px;
+      font-weight: 700;
+      padding: 1rem 0;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: flex-start;
+  }
+
+  .grid__titulo-nav-nav{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 1rem 0;
+
+  }
+
+  .grid__titulo-nav-tudo-a{
+    font-size: 14px;
+    color: white;
+    background-color:#2A7AE4;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+  }
+  .banner{
+    background-position: center;
+
+  }
+  .banner__navtitulo{
+    font-size: 22px;
+  }
+  .banner__texto{
+    font-size: 14px;
+  }
+  .card-text{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .contato{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    grid-template-areas: none;
+    grid-template-columns:none;
+  }
+  .contato__logo{
+    padding-top: 3rem;
+    width: 100%;
+  }
+  .contato__caixa-botao{
+    width: 60%;
+  }
+  .formulario{
+    margin-top: 1rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .formulario__botao{
+    width: 50%;
+  }
+  .cabecalho__logo-primeira{
+    padding-top: 0;
+  }
+  .rodape__titulo {
+    width: 50%;
+  }
+  .cabecalho{
+    display: grid;
+    grid-template-columns:50% 50%  ;
+  }
+  .cabecalho__pesquisa{
+    display: none;
+    grid-column: 3/4;
+    margin: 0;
+
+  }
+  .cabecalho__login{
+    grid-column: 2/3;
+    grid-row: 1/1;
+
+  }
+}
+/* smart phone */
+@media screen and (min-width: 768px) {
+
+    .banner__nav{
+        padding: 18% 0% 0 4%;
+    }
+    .contato{
+        display: grid;
+        grid-template-columns: 35% 45% 20%  ;
+        grid-template-rows: 5rem 17rem 25%;
+        padding: 3rem 1.5rem;
+    }
+    .contato__logo{
+        margin-bottom: 0;
+    }
+    .contato__lista{
+        grid-column: 1;
+    }
+    .contato__grid{
+        grid-row: 2/2;
+    }
+    .cabecalho{
+        grid-template-columns: 1fr 2fr;
+        padding: 1rem 3rem;
+
+    }
+    .cabecalho__logo-primeira{
+        padding: 0;
+        grid-column: 1/2;
+    }
+    .cabecalho__pesquisa{
+      width: 80%;
+      display:inherit;
+      grid-column: 2/3;
+    }
+    .formulario{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        align-self: none;
+        margin-left: 10rem;
+    }
+    .grid__titulo-nav{
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 22px;
+      font-weight: 700;
+      padding: 1rem 0;
+    }
+    .grid__titulo-nav-nav{
+
+      font-size: 22px;
+      font-weight: 700;
+      padding: 1rem 0;
+    }
+    .grid__titulo-nav-tudo-a{
+      font-size: 14px;
+      color: white;
+      background-color:#2A7AE4;
+      font-weight: 600;
+      padding: 0.5rem 2rem;
+    }
+    .grid{
+        padding: 1rem;
+    }
+    .grid__tablet{
+        display: none;
+    }
+    .grid__console{
+      display: inherit;
+    }
+    .grid__titulo{
+      padding: 0;
+    }
+    .principal{
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: auto auto auto auto;
+    }
+    .rodape__titulo{
+      width: 21%;
+    }
+    }
+/* tablet       */
+@media screen and (min-width: 978px) {
+   .cabecalho__logo {
+    padding: inherit ;
+  }
+  .principal{
+    grid-template-columns: 17% 17% 17% 17% 17% 17%;
+    grid-template-rows: 3rem 18rem auto auto;
+    display: grid;
+    }
+  .grid{
+    padding: 1rem;
+  }
+  .grid__titulo-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 1rem 2rem;
+  }
+  .grid__titulo-nav-nav{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 1rem 0;
+  }
+  .grid__titulo-nav-tudo-a{
+    font-size: 14px;
+    color: white;
+    background-color:#2A7AE4;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+  }
+  .grid__card{
+    display: grid;
+  }
+  .contato{
+    display: grid;
+    grid-template-columns: 25% 30% 45%;
+  }
+  .contato__lista{
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .contato__caixa{
+   grid-column: 3/3;
+   grid-row: 2;
+  }
+  .contato__logo{
+      padding-bottom: 50%;
+      grid-row: 2;
+  }
+  .rodape__titulo{
+    width: 15%;
+  }
+
+}
+  /* desktop */

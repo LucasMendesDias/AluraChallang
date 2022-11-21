@@ -1,0 +1,52 @@
+.contato{
+    background: #EAF2FD;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto ;
+    grid-template-areas:
+    "1 1 1 "
+    "2 2 2 "
+    "3 3 3 ";
+    justify-items: center;
+    align-items: center;
+}
+.contato__lista{
+    margin: 3rem 0;
+}
+
+.contato__lista-opcoes-link{
+    margin: 1rem 0 1rem 0;
+    color: #464646;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contato__caixa{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+}
+.contato__caixa-titulo{
+   font-weight: 700;
+   font-size: 16px;
+}
+.contato__caixa-nome{
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.contato__caixa-entrada{
+    padding: 2rem 0;
+}
+.contato__caixa-entrada::placeholder{
+    padding-left: 1rem;
+}
+.contato__caixa-botao{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background: #2A7AE4;
+    color: white;
+    width: 40%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}

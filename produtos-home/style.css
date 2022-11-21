@@ -1,0 +1,18 @@
+@import url(css/cabecalho.css);
+@import url(css/produtos.css);
+@import url(css/contato.css);
+@import url(css/rodape.css);
+@import url(css/responsivo.css);
+@import url(css/grid.css);
+
+
+
+
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    background:#E5E5E5 ;
+}

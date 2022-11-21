@@ -1,0 +1,37 @@
+.produtos{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0 2rem 0;
+    margin: 0 4rem;
+}
+.produtos__titulo{
+    font-size: 32px;
+    font-weight: 700;
+}
+.produtos__botao{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem 1rem;
+    background: #2A7AE4;
+}
+.produtos__card{
+    margin-top: 1rem;
+}
+.produtoscard{
+    margin: 3rem 4rem;
+    width: 100%;
+}
+.produtos__descricao-texto--titulo, .produtos__descricao-texto--codigo{
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    padding: .5rem 0 .5rem 0 ;
+}
+.produtos__descricao-texto--preco{
+    font-size: 16px;
+    font-weight: 700;
+    color: #464646;
+
+
+}

@@ -1,0 +1,15 @@
+.rodape{
+    background: white;
+    padding: 2rem 0;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+}
+.rodape__titulo{
+    width: 10%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}

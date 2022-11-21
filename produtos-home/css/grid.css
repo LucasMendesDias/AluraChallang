@@ -1,0 +1,30 @@
+/* .grid{
+    display: grid;
+    padding: 1rem 2rem;
+} */
+
+.grid__titulo-nav-tudo{
+  color: #2A7AE4;
+  font-weight: 700;
+  font-size: 16px;
+  padding-right: 2rem;
+}
+.card-text{
+    padding: .5rem 0;
+}
+
+.grid__card-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+.grid__card-preco{
+  color: #464646;
+  font-weight: 700;
+  font-size: 16px;
+}
+.grid__card-botao{
+  color: #2A7AE4;
+  font-weight: 700;
+  font-size: 16px;
+}
