@@ -1,0 +1,52 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    flex-basis: 100%;
+    align-items: center;
+    height:30vw;
+    text-align: center;
+    background: #E5E5E5;
+    justify-content: center;
+}
+.login__tabela{
+    padding: 3rem 0;
+    height: 25vw;
+    flex-direction: column;
+    display: flex;
+    width: 36%;
+
+}
+.login__titulo{
+    color: #464646;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+
+}
+.login__email::placeholder{
+    text-align: left;
+    color: #A2A2A2;
+    padding-left: 1rem;
+}
+.login__entrada{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+
+
+}
+.login__email{
+    padding: 1rem 0;
+    margin: .70rem 1rem;
+    border-bottom: 1px solid black;
+
+}
+.botao__entrar{
+    background: #2A7AE4;
+    color: #ffffff;
+    margin: 0 1rem;
+    padding: 0.7rem;
+    border-bottom: 1px solid black;
+}
