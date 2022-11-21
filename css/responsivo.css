@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        padding: 1rem 0;
+    }
+    .cabecalho__logo-primeira{
+        padding: 0  ;
+        margin-left: 3%;
+    }
+    .cabecalho__pesquisa{
+      margin-right: 20%;
+      margin-left: 2%;
+    }
+    .banner__nav{
+        padding: 18% 0% 0 4%;
+    }
+    .grid{
+        padding: 0;
+    }
+    .principal{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .grid__tablet{
+        display: none;
+    }
+    .contato{
+        display: grid;
+        grid-template-columns: 1fr 2fr ;
+        grid-template-rows: 5rem 17rem 25%;
+        padding: 3rem 1.5rem;
+    }
+    .contato__logo{
+        margin-bottom: 0;
+    }
+    .contato__lista{
+        grid-column: 1;
+    }
+    .contato__grid{
+        grid-row: 2/2;
+    }
+    .formulario{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        align-self: none;
+        margin-left: 10rem;
+    }
+    }
+        /* smart phone */
+    
+@media screen and (max-width:378px) {
+    .principal{
+        grid-template-columns: 50% 50%;
+     
+    }
+    .grid{
+        padding: 0 .75rem;
+    }
+    .grid__titulo{
+        padding: 0;
+    }
+    .grid__console{
+        display: none;
+    }
+    .banner{
+        background-position: center;
+
+    }
+    .banner__navtitulo{
+        font-size: 22px;
+    }
+    .banner__texto{
+        font-size: 14px;
+    }
+    .contato{
+        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+        grid-template-areas: none;
+        grid-template-columns:none;
+    }
+    .contato__logo{
+        padding-top: 3rem;
+    }
+    .contato__caixa-botao{
+        width: 60%;
+    }
+    .formulario{
+        margin-top: 1rem;
+        margin-left: 0;
+        width: 90%;
+    }
+    .formulario__botao{
+        width: 50%;
+    }
+    .cabecalho__logo-primeira{
+        padding-top: 0;
+    }
+    .rodape__titulo {
+        width: 50%;
+    }
+    .cabecalho{
+        display: grid;
+     grid-template-columns:50% 50%  ;
+    }
+    .cabecalho__pesquisa{
+        display: none;
+        grid-column: 3/4;
+        margin: 0;
+        
+    }
+    .cabecalho__login{
+        grid-column: 2/3;
+        grid-row: 1/1;
+
+    }
+}

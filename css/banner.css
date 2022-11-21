@@ -1,0 +1,30 @@
+.banner{
+    height: 352px;
+    background-image: url(../img/banner.svg);
+    background-size: cover;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.banner__nav{
+    padding: 8% 0% 0 11%;
+}
+
+.banner__titulo{
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner__texto{
+    padding: 1.8rem 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner__botao-link{
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--cor-botao-azul);
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+}

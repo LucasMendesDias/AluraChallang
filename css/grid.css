@@ -1,0 +1,53 @@
+.grid{
+    display: grid;
+    padding: 1rem 2rem;
+}
+.grid__titulo{
+  padding: 0 1rem;
+}
+.grid__titulo-nav-nav{
+  font-size: 32px;
+  font-weight: 700;
+}
+.grid__titulo-nav-tudo::after{
+  content: url(../img/seta.svg);
+  vertical-align: middle;
+  margin-left: .25rem;
+}
+.grid__titulo-nav-tudo{
+  color: #2A7AE4;
+  font-weight: 700;
+  font-size: 16px;
+  padding-right: 2rem;
+}
+
+.principal{
+  grid-template-columns: 17% 17% 17% 17% 17% 17%;
+  grid-template-rows: 3rem 18rem auto auto;
+  display: grid;
+
+}
+.card-text{
+    padding: .5rem 0;
+}
+
+.grid__card-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+.grid__card-preco{
+  color: #464646;
+  font-weight: 700;
+  font-size: 16px;
+}
+.grid__card-botao{
+  color: #2A7AE4;
+  font-weight: 700;
+  font-size: 16px;
+}
+.grid__titulo-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
